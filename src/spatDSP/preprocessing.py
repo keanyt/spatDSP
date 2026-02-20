@@ -5,6 +5,8 @@ DSP is a sample-level test: we compute diffusion curves within each sample
 
 from __future__ import annotations
 
+from anndata import AnnData
+
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
