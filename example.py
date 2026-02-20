@@ -1,5 +1,8 @@
+import numpy as np
+import scanpy as sc
 import spatDSP
-import AnnData
+
+adata = sc.read_h5ad("path/to/data.h5ad")
 
 res = spatDSP.run_dsp(
     adata,
