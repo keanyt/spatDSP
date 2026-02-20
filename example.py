@@ -1,3 +1,6 @@
+import spatDSP
+import AnnData
+
 res = spatDSP.run_dsp(
     adata,
     sample_key="Donor ID",          # donor/section/sample identifier
