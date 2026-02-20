@@ -21,7 +21,7 @@ def split_adata_by_sample(
     groups: Tuple[str, str] | Tuple[int, int] | None = None,
     spatial_key: str = "spatial",
     ensure_unique_obs_names: bool = True,
-) -> Tuple[Dict[str, "anndata.AnnData"], pd.DataFrame]:
+) -> Tuple[Dict[str, AnnData], pd.DataFrame]:
     """Split a single AnnData into a dict of per-sample AnnDatas.
 
     Parameters
